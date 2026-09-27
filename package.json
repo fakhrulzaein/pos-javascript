@@ -1,0 +1,23 @@
+{
+  "name": "native-js-pos",
+  "version": "1.0.0",
+  "description": "POS, ERP Mini F&B, dan CMS Company Profile — 100% Native JavaScript (tanpa framework)",
+  "main": "backend/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "setup": "node scripts/setup.js",
+    "seed:demo": "node scripts/seed-demo.js",
+    "backup": "node scripts/backup-now.js",
+    "build:site": "node scripts/build-site.js",
+    "seed:history": "node scripts/seed-history.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0",
+    "nodemailer": "^10.0.11"
+  }
+}

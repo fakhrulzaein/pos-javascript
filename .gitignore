@@ -1,0 +1,11 @@
+node_modules/
+.env
+backups/*.sql.gz
+frontend/assets/uploads/*
+!frontend/assets/uploads/.gitkeep
+frontend/public/*.html
+frontend/public/*.xml
+frontend/public/*.txt
+frontend/public/articles/*.html
+docs/src/shots/
+docs/src/node_modules
